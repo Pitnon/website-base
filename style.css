@@ -7,6 +7,7 @@ body {
   min-height: 100lvh;
   background: var(--blackDarkTheme);
   font-family: 'Lexend', sans-serif;
+  cursor: none;
 }
 
 .circle {
@@ -42,7 +43,7 @@ body {
 
 .rounded_rectangle {
   background: var(--redDarkTheme);
-  height: 58%;
+  height: 57%;
   width: 78%;
   padding: 10%;
   position: absolute;
@@ -50,6 +51,5 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
-  cursor: none;
   margin-top: 1px;
 }
