@@ -1,0 +1,54 @@
+body {
+  --blackDarkTheme: #1c1b1d;
+  --tanDarkTheme: #deaf9d;
+  --whiteDarkTheme: #f2efed;
+  --brownDarkTheme: #4e3e3e;
+  --redDarkTheme: #bf616a;
+  min-height: 100lvh;
+  background: var(--blackDarkTheme);
+  font-family: 'Lexend', sans-serif;
+}
+
+.circle {
+  --circle-size: 40px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 2.5px solid #f2efed;
+  border-radius: 100%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+  box-shadow: 1px 1px 2px #1c1b1d;
+}
+
+.rounded_rectangle h1 {
+  margin-top: -220px;
+  text-align: center;
+  text-shadow: 4px 4px 8px #1c1b1d;
+  color: var(--whiteDarkTheme);
+  font-size: 40px;
+}
+
+.rounded_rectangle hr {
+  background: var(--whiteDarkTheme);
+  height: 4px;
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px 8px #1c1b1d;
+}
+
+.rounded_rectangle {
+  background: var(--redDarkTheme);
+  height: 58%;
+  width: 78%;
+  padding: 10%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  cursor: none;
+}
